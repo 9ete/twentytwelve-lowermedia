@@ -1,6 +1,6 @@
 /*
- Theme Name:   Enter-Theme-Name-Here - LowerMedia Custom Theme
- Theme URI:    http://example.com/twenty-twelve-child/
+ Theme Name:   LowerMedia Theme - LowerMedia Custom Theme
+ Theme URI:    http://lowermedia.net
  Description:  Twenty Twelve Child Theme
  Author:       Pete Lower
  Author URI:   http://petelower.com
@@ -12,6 +12,18 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+
+/*
+Possible colors:;
+https://color.adobe.com/create/color-wheel/?base=2&rule=Triad&selected=3&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.7,0.4320050515516036,0.10525885562136417,0.041761235482579685,0.4627450980392157,0.1331776483454266,1,0.5720893020840367,0.05036979374480599,0.4433036785384033,0.21422318782446467,0.8,0.2739075241844958,0.0002588556213641624,0.7&swatchOrder=0,1,2,3,4
+
+BURNT ORANGE: 	#B26E1B 	rgba(178,110,27,1)
+DARK GREEN: 	#0B7622 	rgba(11,118,34,1)
+ORANGE: 		#FF920D 	rgba(255,146,13,1)
+PURPLE: 		#7137CC 	rgba(113,55,204,1)
+ROYAL BLUE: 	#4600B2 	rgba(70,0,178,1)
+
+*/
 
 /* 
 -- H/P/A -- 

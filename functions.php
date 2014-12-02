@@ -375,20 +375,32 @@
 
            
            /*change admin menu coloring*/ 
-            #adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap { background-color: #043789; }
+            #adminmenu, #adminmenuback, #adminmenuwrap { background-color: #007621; /*#043789;*/ }
 
-            #adminmenu .wp-submenu a {color: rgba(249,190,25,0.6);}
+            #adminmenu .wp-submenu a {color: rgba(255,141,13,.6); /*rgba(249,190,25,0.6);*/ }
 
             #adminmenu .opensub .wp-submenu li.current a,
             #adminmenu .wp-submenu li.current, 
             #adminmenu .wp-submenu li.current a, 
             #adminmenu .wp-submenu li.current a:focus, 
             #adminmenu .wp-submenu li.current a:hover, 
-            #adminmenu a.wp-has-current-submenu:focus+.wp-submenu li.current a { color: rgba(249,190,25,1); }
+            #adminmenu a.wp-has-current-submenu:focus+.wp-submenu li.current a { color: rgba(178,107,27,1); /*color: rgba(249,190,25,1);*/ }
 
             #adminmenu li.menu-top:hover,
             #adminmenu li.opensub>a.menu-top, 
             #adminmenu li>a.menu-top:focus { background: linear-gradient(to bottom,#f9f9f9 37%,#c9c9c9 100%); }
+
+           #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu {
+                background: #7137CC;
+            }
+
+            #adminmenu .wp-submenu a:focus, 
+            #adminmenu .wp-submenu a:hover, 
+            #adminmenu a:hover, 
+            #adminmenu li.menu-top>a:focus,
+            #adminmenu li:hover div.wp-menu-image:before {
+                color: #7137CC;
+            }
          </style>';
     }
     add_action('admin_head', 'lm_custom_admin_styles');

@@ -36,6 +36,13 @@
     }
     add_action( 'wp_enqueue_scripts', 'lowermedia_enqueue_parent_style' );
 
+/*
+#
+#   ENABLE SHORTCODE IN WIDGETS
+#
+*/
+
+    add_filter('widget_text', 'do_shortcode');
 
 /*
 #
@@ -485,8 +492,8 @@
 /*
 #
 #   SPEED OPTIMIZATIONS
-#   -Load all fonts from google
-#
+#   - Load all fonts from google
+#   - SAVES TWO REQUESTS
 #
 */
 
@@ -571,13 +578,7 @@
         }
     }
 
-/*
-#
-#   ENABLE SHORTCODE IN WIDGETS
-#
-*/
 
-    add_filter('widget_text', 'do_shortcode');
 
 /*
 #
